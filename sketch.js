@@ -49,12 +49,5 @@ function draw() {
 
 function keyPressed() {
 	//write code here
-	if (keyCode === LEFT_ARROW) {
-	 fairy.velocityX = 1;
-	 fairy.velocityY = 0;
-	}
-	if (keyCode === RIGHT_ARROW) {
-		fairy.velocityX = 0;
-		fairy.velocityY = 0;
-	   }
+	
 }
